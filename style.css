@@ -157,6 +157,56 @@ section h2 {
     transform: translateY(-6px);
 }
 
+/* Work Section */
+.work-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.work-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  width: 340px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.work-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.work-card h3 {
+  color: #0968ee;
+  margin-bottom: 0.5rem;
+}
+
+.work-card p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.work-card a {
+  color: #0968ee;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.work-card a:hover {
+  text-decoration: underline;
+}
+
+.work-card:hover {
+  transform: translateY(-6px);
+}
+
 /* Contact */
 #contact p {
     margin: 0.8rem 0;
